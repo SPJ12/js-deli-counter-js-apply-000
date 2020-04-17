@@ -1,9 +1,12 @@
-function takeANumber(katzDeliLine, name)
-{
-  katzDeliLine.push(name);
-  return "Welcome, " +name +". You are number " + katzDeliLine.length + " in line.";
+var customerNo = 1;
+function takeANumber(){
+  var message = "Order number:" + customerNo;
+  customerNo++;
+  return message;
 }
-
+console.log(takeANumber());
+console.log(takeANumber());
+console.log(takeANumber());
 
 function nowServing(katzDeliLine)
 {
