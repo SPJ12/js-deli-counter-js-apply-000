@@ -1,5 +1,6 @@
-var customerNo = 1;
+
 function takeANumber(){
+  var customerNo = 1;
   var message = "Order number:" + customerNo;
   customerNo++;
   return message;
